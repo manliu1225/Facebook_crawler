@@ -1,0 +1,840 @@
+nohup: ignoring input
+2020-06-28 15:48:56 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: fbcrawl)
+2020-06-28 15:48:56 [scrapy.utils.log] INFO: Versions: lxml 4.5.1.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.5.2 (default, Nov 12 2018, 13:43:14) - [GCC 5.4.0 20160609], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Linux-4.4.0-145-generic-x86_64-with-Ubuntu-16.04-xenial
+2020-06-28 15:48:56 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'fbcrawl',
+ 'DOWNLOAD_DELAY': 3,
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'FEED_EXPORT_FIELDS': ['source',
+                        'shared_from',
+                        'date',
+                        'text',
+                        'reactions',
+                        'likes',
+                        'ahah',
+                        'love',
+                        'wow',
+                        'sigh',
+                        'grrr',
+                        'comments',
+                        'post_id',
+                        'url'],
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'fbcrawl.spiders',
+ 'SPIDER_MODULES': ['fbcrawl.spiders'],
+ 'URLLENGTH_LIMIT': 99999,
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
+2020-06-28 15:48:56 [scrapy.extensions.telnet] INFO: Telnet Password: feef562c2581e544
+2020-06-28 15:48:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2020-06-28 15:48:56 [fb] INFO: Email and password provided, will be used to log in
+2020-06-28 15:48:56 [fb] INFO: Date attribute provided, fbcrawl will stop crawling at 2020-01-01
+2020-06-28 15:48:56 [fb] INFO: Language attribute recognized, using "en" for the facebook interface
+2020-06-28 15:48:56 [scrapy.core.engine] INFO: Spider opened
+2020-06-28 15:48:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-06-28 15:48:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-06-28 15:49:03 [fb] INFO: Going through the "save-device" checkpoint
+2020-06-28 15:49:12 [fb] INFO: Scraping facebook page https://mbasic.facebook.com/TheStraitsTimes
+2020-06-28 15:49:14 [fb] INFO: Parsing post n = 1, post_date = 2020-06-28 15:35:34
+2020-06-28 15:49:14 [fb] INFO: Parsing post n = 2, post_date = 2020-06-28 15:16:32
+2020-06-28 15:49:14 [fb] INFO: Parsing post n = 3, post_date = 2020-06-28 14:44:18
+2020-06-28 15:49:14 [fb] INFO: Parsing post n = 4, post_date = 2020-06-28 14:35:49
+2020-06-28 15:49:14 [fb] INFO: Parsing post n = 5, post_date = 2020-06-28 14:16:45
+2020-06-28 15:49:14 [fb] INFO: First page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593325005%3A04611686018427387904%3A09223372036854775803%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593325005%3A04611686018427387904%3A09223372036854775803%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:49:36 [fb] INFO: Parsing post n = 6, post_date = 2020-06-28 13:59:07
+2020-06-28 15:49:36 [fb] INFO: Parsing post n = 7, post_date = 2020-06-28 13:36:14
+2020-06-28 15:49:36 [fb] INFO: Parsing post n = 8, post_date = 2020-06-28 13:22:12
+2020-06-28 15:49:36 [fb] INFO: Parsing post n = 9, post_date = 2020-06-28 12:45:39
+2020-06-28 15:49:36 [fb] INFO: Parsing post n = 10, post_date = 2020-06-28 12:31:00
+2020-06-28 15:49:36 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593318660%3A04611686018427387904%3A09223372036854775798%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593318660%3A04611686018427387904%3A09223372036854775798%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:49:56 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 15 pages/min), scraped 5 items (at 5 items/min)
+2020-06-28 15:50:12 [fb] INFO: Parsing post n = 11, post_date = 2020-06-28 12:15:28
+2020-06-28 15:50:12 [fb] INFO: Parsing post n = 12, post_date = 2020-06-28 11:54:05
+2020-06-28 15:50:12 [fb] INFO: Parsing post n = 13, post_date = 2020-06-28 11:16:01
+2020-06-28 15:50:12 [fb] INFO: Parsing post n = 14, post_date = 2020-06-28 10:50:16
+2020-06-28 15:50:12 [fb] INFO: Parsing post n = 15, post_date = 2020-06-28 10:35:40
+2020-06-28 15:50:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593311740%3A04611686018427387904%3A09223372036854775793%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593311740%3A04611686018427387904%3A09223372036854775793%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:50:49 [fb] INFO: Parsing post n = 16, post_date = 2020-06-28 09:56:40
+2020-06-28 15:50:49 [fb] INFO: Parsing post n = 17, post_date = 2020-06-28 09:22:12
+2020-06-28 15:50:49 [fb] INFO: Parsing post n = 18, post_date = 2020-06-28 08:45:33
+2020-06-28 15:50:49 [fb] INFO: Parsing post n = 19, post_date = 2020-06-28 08:16:15
+2020-06-28 15:50:49 [fb] INFO: Parsing post n = 20, post_date = 2020-06-28 07:50:16
+2020-06-28 15:50:49 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593301816%3A04611686018427387904%3A09223372036854775788%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593301816%3A04611686018427387904%3A09223372036854775788%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:50:56 [scrapy.extensions.logstats] INFO: Crawled 31 pages (at 16 pages/min), scraped 9 items (at 4 items/min)
+2020-06-28 15:51:31 [fb] INFO: Parsing post n = 21, post_date = 2020-06-28 07:30:18
+2020-06-28 15:51:31 [fb] INFO: Parsing post n = 22, post_date = 2020-06-28 00:31:14
+2020-06-28 15:51:31 [fb] INFO: Parsing post n = 23, post_date = 2020-06-27 22:50:51
+2020-06-28 15:51:31 [fb] INFO: Parsing post n = 24, post_date = 2020-06-27 22:28:05
+2020-06-28 15:51:31 [fb] INFO: Parsing post n = 25, post_date = 2020-06-27 21:59:26
+2020-06-28 15:51:31 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593266366%3A04611686018427387904%3A09223372036854775783%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593266366%3A04611686018427387904%3A09223372036854775783%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:51:56 [scrapy.extensions.logstats] INFO: Crawled 47 pages (at 16 pages/min), scraped 19 items (at 10 items/min)
+2020-06-28 15:52:17 [fb] INFO: Parsing post n = 26, post_date = 2020-06-27 21:59:26
+2020-06-28 15:52:17 [fb] INFO: Parsing post n = 27, post_date = 2020-06-27 21:36:58
+2020-06-28 15:52:17 [fb] INFO: Parsing post n = 28, post_date = 2020-06-27 21:27:24
+2020-06-28 15:52:17 [fb] INFO: Parsing post n = 29, post_date = 2020-06-27 21:11:50
+2020-06-28 15:52:17 [fb] INFO: Parsing post n = 30, post_date = 2020-06-27 20:56:41
+2020-06-28 15:52:17 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593262601%3A04611686018427387904%3A09223372036854775778%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593262601%3A04611686018427387904%3A09223372036854775778%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:52:46 [fb] INFO: Parsing post n = 31, post_date = 2020-06-27 20:41:35
+2020-06-28 15:52:46 [fb] INFO: Parsing post n = 32, post_date = 2020-06-27 20:08:57
+2020-06-28 15:52:46 [fb] INFO: Parsing post n = 33, post_date = 2020-06-27 19:29:55
+2020-06-28 15:52:46 [fb] INFO: Parsing post n = 34, post_date = 2020-06-27 19:07:03
+2020-06-28 15:52:46 [fb] INFO: Parsing post n = 35, post_date = 2020-06-27 18:27:30
+2020-06-28 15:52:46 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593253650%3A04611686018427387904%3A09223372036854775773%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593253650%3A04611686018427387904%3A09223372036854775773%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:52:56 [scrapy.extensions.logstats] INFO: Crawled 63 pages (at 16 pages/min), scraped 25 items (at 6 items/min)
+2020-06-28 15:53:25 [fb] INFO: Parsing post n = 36, post_date = 2020-06-27 17:50:30
+2020-06-28 15:53:25 [fb] INFO: Parsing post n = 37, post_date = 2020-06-27 17:20:15
+2020-06-28 15:53:25 [fb] INFO: Parsing post n = 38, post_date = 2020-06-27 17:00:27
+2020-06-28 15:53:25 [fb] INFO: Parsing post n = 39, post_date = 2020-06-27 16:33:14
+2020-06-28 15:53:25 [fb] INFO: Parsing post n = 40, post_date = 2020-06-27 15:46:27
+2020-06-28 15:53:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593243987%3A04611686018427387904%3A09223372036854775768%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593243987%3A04611686018427387904%3A09223372036854775768%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:53:56 [scrapy.extensions.logstats] INFO: Crawled 80 pages (at 17 pages/min), scraped 34 items (at 9 items/min)
+2020-06-28 15:54:12 [fb] INFO: Parsing post n = 41, post_date = 2020-06-27 15:41:17
+2020-06-28 15:54:12 [fb] INFO: Parsing post n = 42, post_date = 2020-06-27 15:16:59
+2020-06-28 15:54:12 [fb] INFO: Parsing post n = 43, post_date = 2020-06-27 15:11:13
+2020-06-28 15:54:12 [fb] INFO: Parsing post n = 44, post_date = 2020-06-27 14:50:27
+2020-06-28 15:54:12 [fb] INFO: Parsing post n = 45, post_date = 2020-06-27 14:31:07
+2020-06-28 15:54:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593239467%3A04611686018427387904%3A09223372036854775763%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593239467%3A04611686018427387904%3A09223372036854775763%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:54:49 [fb] INFO: Parsing post n = 46, post_date = 2020-06-27 14:12:54
+2020-06-28 15:54:49 [fb] INFO: Parsing post n = 47, post_date = 2020-06-27 13:40:33
+2020-06-28 15:54:49 [fb] INFO: Parsing post n = 48, post_date = 2020-06-27 13:35:35
+2020-06-28 15:54:49 [fb] INFO: Parsing post n = 49, post_date = 2020-06-27 13:14:49
+2020-06-28 15:54:49 [fb] INFO: Parsing post n = 50, post_date = 2020-06-27 12:41:06
+2020-06-28 15:54:49 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593232866%3A04611686018427387904%3A09223372036854775758%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593232866%3A04611686018427387904%3A09223372036854775758%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:54:56 [scrapy.extensions.logstats] INFO: Crawled 96 pages (at 16 pages/min), scraped 38 items (at 4 items/min)
+2020-06-28 15:55:39 [fb] INFO: Parsing post n = 51, post_date = 2020-06-27 12:27:10
+2020-06-28 15:55:39 [fb] INFO: Parsing post n = 52, post_date = 2020-06-27 11:52:03
+2020-06-28 15:55:39 [fb] INFO: Parsing post n = 53, post_date = 2020-06-27 11:05:24
+2020-06-28 15:55:39 [fb] INFO: Parsing post n = 54, post_date = 2020-06-27 10:00:29
+2020-06-28 15:55:39 [fb] INFO: Parsing post n = 55, post_date = 2020-06-27 09:41:17
+2020-06-28 15:55:39 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593222077%3A04611686018427387904%3A09223372036854775753%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593222077%3A04611686018427387904%3A09223372036854775753%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:55:56 [scrapy.extensions.logstats] INFO: Crawled 113 pages (at 17 pages/min), scraped 49 items (at 11 items/min)
+2020-06-28 15:56:08 [fb] INFO: Parsing post n = 56, post_date = 2020-06-27 09:15:31
+2020-06-28 15:56:08 [fb] INFO: Parsing post n = 57, post_date = 2020-06-27 08:50:27
+2020-06-28 15:56:08 [fb] INFO: Parsing post n = 58, post_date = 2020-06-27 08:30:49
+2020-06-28 15:56:08 [fb] INFO: Parsing post n = 59, post_date = 2020-06-27 08:10:43
+2020-06-28 15:56:08 [fb] INFO: Parsing post n = 60, post_date = 2020-06-27 07:53:49
+2020-06-28 15:56:08 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593215629%3A04611686018427387904%3A09223372036854775748%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593215629%3A04611686018427387904%3A09223372036854775748%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:56:44 [fb] INFO: Parsing post n = 61, post_date = 2020-06-27 07:30:56
+2020-06-28 15:56:44 [fb] INFO: Parsing post n = 62, post_date = 2020-06-26 23:40:36
+2020-06-28 15:56:44 [fb] INFO: Parsing post n = 63, post_date = 2020-06-26 23:25:38
+2020-06-28 15:56:44 [fb] INFO: Parsing post n = 64, post_date = 2020-06-26 23:11:24
+2020-06-28 15:56:44 [fb] INFO: Parsing post n = 65, post_date = 2020-06-26 22:27:54
+2020-06-28 15:56:44 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593181674%3A04611686018427387904%3A09223372036854775743%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593181674%3A04611686018427387904%3A09223372036854775743%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:56:56 [scrapy.extensions.logstats] INFO: Crawled 129 pages (at 16 pages/min), scraped 53 items (at 4 items/min)
+2020-06-28 15:57:25 [fb] INFO: Parsing post n = 66, post_date = 2020-06-26 21:45:52
+2020-06-28 15:57:25 [fb] INFO: Parsing post n = 67, post_date = 2020-06-26 21:29:27
+2020-06-28 15:57:25 [fb] INFO: Parsing post n = 68, post_date = 2020-06-26 21:13:01
+2020-06-28 15:57:25 [fb] INFO: Parsing post n = 69, post_date = 2020-06-26 20:55:27
+2020-06-28 15:57:25 [fb] INFO: Parsing post n = 70, post_date = 2020-06-26 20:39:03
+2020-06-28 15:57:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593175143%3A04611686018427387904%3A09223372036854775738%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593175143%3A04611686018427387904%3A09223372036854775738%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:57:56 [scrapy.extensions.logstats] INFO: Crawled 145 pages (at 16 pages/min), scraped 62 items (at 9 items/min)
+2020-06-28 15:58:04 [fb] INFO: Parsing post n = 71, post_date = 2020-06-26 20:20:35
+2020-06-28 15:58:04 [fb] INFO: Parsing post n = 72, post_date = 2020-06-26 20:04:59
+2020-06-28 15:58:04 [fb] INFO: Parsing post n = 73, post_date = 2020-06-26 19:44:48
+2020-06-28 15:58:04 [fb] INFO: Parsing post n = 74, post_date = 2020-06-26 19:27:59
+2020-06-28 15:58:04 [fb] INFO: Parsing post n = 75, post_date = 2020-06-26 19:10:48
+2020-06-28 15:58:04 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593169848%3A04611686018427387904%3A09223372036854775733%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593169848%3A04611686018427387904%3A09223372036854775733%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:58:56 [scrapy.extensions.logstats] INFO: Crawled 160 pages (at 15 pages/min), scraped 67 items (at 5 items/min)
+2020-06-28 15:58:58 [fb] INFO: Parsing post n = 76, post_date = 2020-06-26 18:50:16
+2020-06-28 15:58:58 [fb] INFO: Parsing post n = 77, post_date = 2020-06-26 18:18:29
+2020-06-28 15:58:58 [fb] INFO: Parsing post n = 78, post_date = 2020-06-26 17:41:03
+2020-06-28 15:58:58 [fb] INFO: Parsing post n = 79, post_date = 2020-06-26 17:34:07
+2020-06-28 15:58:58 [fb] INFO: Parsing post n = 80, post_date = 2020-06-26 17:16:11
+2020-06-28 15:58:58 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593162971%3A04611686018427387904%3A09223372036854775728%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593162971%3A04611686018427387904%3A09223372036854775728%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:59:52 [fb] INFO: Parsing post n = 81, post_date = 2020-06-26 17:04:06
+2020-06-28 15:59:52 [fb] INFO: Parsing post n = 82, post_date = 2020-06-26 16:51:54
+2020-06-28 15:59:52 [fb] INFO: Parsing post n = 83, post_date = 2020-06-26 16:30:08
+2020-06-28 15:59:52 [fb] INFO: Parsing post n = 84, post_date = 2020-06-26 16:07:17
+2020-06-28 15:59:52 [fb] INFO: Parsing post n = 85, post_date = 2020-06-26 16:00:31
+2020-06-28 15:59:52 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593158431%3A04611686018427387904%3A09223372036854775723%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593158431%3A04611686018427387904%3A09223372036854775723%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 15:59:56 [scrapy.extensions.logstats] INFO: Crawled 175 pages (at 15 pages/min), scraped 75 items (at 8 items/min)
+2020-06-28 16:00:22 [fb] INFO: Parsing post n = 86, post_date = 2020-06-26 15:48:21
+2020-06-28 16:00:22 [fb] INFO: Parsing post n = 87, post_date = 2020-06-26 15:35:00
+2020-06-28 16:00:22 [fb] INFO: Parsing post n = 88, post_date = 2020-06-26 15:16:40
+2020-06-28 16:00:22 [fb] INFO: Parsing post n = 89, post_date = 2020-06-26 14:53:30
+2020-06-28 16:00:22 [fb] INFO: Parsing post n = 90, post_date = 2020-06-26 14:35:37
+2020-06-28 16:00:22 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593153337%3A04611686018427387904%3A09223372036854775718%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593153337%3A04611686018427387904%3A09223372036854775718%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:00:52 [fb] INFO: Parsing post n = 91, post_date = 2020-06-26 14:11:10
+2020-06-28 16:00:52 [fb] INFO: Parsing post n = 92, post_date = 2020-06-26 13:50:03
+2020-06-28 16:00:52 [fb] INFO: Parsing post n = 93, post_date = 2020-06-26 13:16:07
+2020-06-28 16:00:52 [fb] INFO: Parsing post n = 94, post_date = 2020-06-26 12:55:31
+2020-06-28 16:00:52 [fb] INFO: Parsing post n = 95, post_date = 2020-06-26 12:36:12
+2020-06-28 16:00:52 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593146172%3A04611686018427387904%3A09223372036854775713%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593146172%3A04611686018427387904%3A09223372036854775713%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:00:56 [scrapy.extensions.logstats] INFO: Crawled 190 pages (at 15 pages/min), scraped 81 items (at 6 items/min)
+2020-06-28 16:01:48 [fb] INFO: Parsing post n = 96, post_date = 2020-06-26 12:30:42
+2020-06-28 16:01:48 [fb] INFO: Parsing post n = 97, post_date = 2020-06-26 12:15:33
+2020-06-28 16:01:48 [fb] INFO: Parsing post n = 98, post_date = 2020-06-26 11:50:27
+2020-06-28 16:01:48 [fb] INFO: Parsing post n = 99, post_date = 2020-06-26 11:30:42
+2020-06-28 16:01:48 [fb] INFO: Parsing post n = 100, post_date = 2020-06-26 11:11:09
+2020-06-28 16:01:48 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593141069%3A04611686018427387904%3A09223372036854775708%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593141069%3A04611686018427387904%3A09223372036854775708%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:01:56 [scrapy.extensions.logstats] INFO: Crawled 206 pages (at 16 pages/min), scraped 88 items (at 7 items/min)
+2020-06-28 16:02:32 [fb] INFO: Parsing post n = 101, post_date = 2020-06-26 10:51:02
+2020-06-28 16:02:32 [fb] INFO: Parsing post n = 102, post_date = 2020-06-26 10:25:18
+2020-06-28 16:02:32 [fb] INFO: Parsing post n = 103, post_date = 2020-06-26 10:02:21
+2020-06-28 16:02:32 [fb] INFO: Parsing post n = 104, post_date = 2020-06-26 09:40:54
+2020-06-28 16:02:32 [fb] INFO: Parsing post n = 105, post_date = 2020-06-26 09:20:21
+2020-06-28 16:02:32 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593134421%3A04611686018427387904%3A09223372036854775703%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593134421%3A04611686018427387904%3A09223372036854775703%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:02:56 [scrapy.extensions.logstats] INFO: Crawled 222 pages (at 16 pages/min), scraped 97 items (at 9 items/min)
+2020-06-28 16:03:10 [fb] INFO: Parsing post n = 106, post_date = 2020-06-26 09:00:32
+2020-06-28 16:03:10 [fb] INFO: Parsing post n = 107, post_date = 2020-06-26 08:40:45
+2020-06-28 16:03:10 [fb] INFO: Parsing post n = 108, post_date = 2020-06-26 08:21:45
+2020-06-28 16:03:10 [fb] INFO: Parsing post n = 109, post_date = 2020-06-26 07:57:54
+2020-06-28 16:03:10 [fb] INFO: Parsing post n = 110, post_date = 2020-06-26 07:37:07
+2020-06-28 16:03:10 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593128227%3A04611686018427387904%3A09223372036854775698%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593128227%3A04611686018427387904%3A09223372036854775698%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:03:56 [scrapy.extensions.logstats] INFO: Crawled 240 pages (at 18 pages/min), scraped 105 items (at 8 items/min)
+2020-06-28 16:04:00 [fb] INFO: Parsing post n = 111, post_date = 2020-06-26 07:16:58
+2020-06-28 16:04:00 [fb] INFO: Parsing post n = 112, post_date = 2020-06-25 23:59:50
+2020-06-28 16:04:00 [fb] INFO: Parsing post n = 113, post_date = 2020-06-25 23:38:35
+2020-06-28 16:04:01 [fb] INFO: Parsing post n = 114, post_date = 2020-06-25 23:11:36
+2020-06-28 16:04:01 [fb] INFO: Parsing post n = 115, post_date = 2020-06-25 22:41:08
+2020-06-28 16:04:01 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593096068%3A04611686018427387904%3A09223372036854775693%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593096068%3A04611686018427387904%3A09223372036854775693%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:04:40 [fb] INFO: Parsing post n = 116, post_date = 2020-06-25 22:15:52
+2020-06-28 16:04:40 [fb] INFO: Parsing post n = 117, post_date = 2020-06-25 21:51:21
+2020-06-28 16:04:40 [fb] INFO: Parsing post n = 118, post_date = 2020-06-25 21:24:12
+2020-06-28 16:04:40 [fb] INFO: Parsing post n = 119, post_date = 2020-06-25 21:08:56
+2020-06-28 16:04:40 [fb] INFO: Parsing post n = 120, post_date = 2020-06-25 20:50:33
+2020-06-28 16:04:40 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593089433%3A04611686018427387904%3A09223372036854775688%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593089433%3A04611686018427387904%3A09223372036854775688%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:04:56 [scrapy.extensions.logstats] INFO: Crawled 256 pages (at 16 pages/min), scraped 114 items (at 9 items/min)
+2020-06-28 16:05:18 [fb] INFO: Parsing post n = 121, post_date = 2020-06-25 20:34:47
+2020-06-28 16:05:18 [fb] INFO: Parsing post n = 122, post_date = 2020-06-25 20:22:20
+2020-06-28 16:05:18 [fb] INFO: Parsing post n = 123, post_date = 2020-06-25 20:07:15
+2020-06-28 16:05:18 [fb] INFO: Parsing post n = 124, post_date = 2020-06-25 20:00:01
+2020-06-28 16:05:18 [fb] INFO: Parsing post n = 125, post_date = 2020-06-25 19:46:21
+2020-06-28 16:05:18 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593085581%3A04611686018427387904%3A09223372036854775683%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593085581%3A04611686018427387904%3A09223372036854775683%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:05:56 [scrapy.extensions.logstats] INFO: Crawled 271 pages (at 15 pages/min), scraped 119 items (at 5 items/min)
+2020-06-28 16:05:57 [fb] INFO: Parsing post n = 126, post_date = 2020-06-25 19:31:19
+2020-06-28 16:05:57 [fb] INFO: Parsing post n = 127, post_date = 2020-06-25 19:13:51
+2020-06-28 16:05:57 [fb] INFO: Parsing post n = 128, post_date = 2020-06-25 18:57:12
+2020-06-28 16:05:57 [fb] INFO: Parsing post n = 129, post_date = 2020-06-25 18:55:23
+2020-06-28 16:05:57 [fb] INFO: Parsing post n = 130, post_date = 2020-06-25 18:49:02
+2020-06-28 16:05:57 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593082142%3A04611686018427387904%3A09223372036854775678%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593082142%3A04611686018427387904%3A09223372036854775678%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:06:43 [fb] INFO: Parsing post n = 131, post_date = 2020-06-25 18:49:02
+2020-06-28 16:06:43 [fb] INFO: Parsing post n = 132, post_date = 2020-06-25 18:40:41
+2020-06-28 16:06:43 [fb] INFO: Parsing post n = 133, post_date = 2020-06-25 18:36:23
+2020-06-28 16:06:43 [fb] INFO: Parsing post n = 134, post_date = 2020-06-25 18:08:14
+2020-06-28 16:06:43 [fb] INFO: Parsing post n = 135, post_date = 2020-06-25 17:44:47
+2020-06-28 16:06:43 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593078287%3A04611686018427387904%3A09223372036854775673%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593078287%3A04611686018427387904%3A09223372036854775673%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:06:56 [scrapy.extensions.logstats] INFO: Crawled 287 pages (at 16 pages/min), scraped 127 items (at 8 items/min)
+2020-06-28 16:07:25 [fb] INFO: Parsing post n = 136, post_date = 2020-06-25 17:23:08
+2020-06-28 16:07:25 [fb] INFO: Parsing post n = 137, post_date = 2020-06-25 17:07:58
+2020-06-28 16:07:25 [fb] INFO: Parsing post n = 138, post_date = 2020-06-25 17:01:03
+2020-06-28 16:07:25 [fb] INFO: Parsing post n = 139, post_date = 2020-06-25 16:50:53
+2020-06-28 16:07:25 [fb] INFO: Parsing post n = 140, post_date = 2020-06-25 16:41:22
+2020-06-28 16:07:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593074482%3A04611686018427387904%3A09223372036854775668%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593074482%3A04611686018427387904%3A09223372036854775668%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:07:54 [fb] INFO: Parsing post n = 141, post_date = 2020-06-25 16:10:55
+2020-06-28 16:07:54 [fb] INFO: Parsing post n = 142, post_date = 2020-06-25 15:47:00
+2020-06-28 16:07:54 [fb] INFO: Parsing post n = 143, post_date = 2020-06-25 15:31:40
+2020-06-28 16:07:54 [fb] INFO: Parsing post n = 144, post_date = 2020-06-25 15:25:52
+2020-06-28 16:07:54 [fb] INFO: Parsing post n = 145, post_date = 2020-06-25 15:15:13
+2020-06-28 16:07:54 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593069313%3A04611686018427387904%3A09223372036854775663%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593069313%3A04611686018427387904%3A09223372036854775663%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:07:56 [scrapy.extensions.logstats] INFO: Crawled 304 pages (at 17 pages/min), scraped 135 items (at 8 items/min)
+2020-06-28 16:08:28 [fb] INFO: Parsing post n = 146, post_date = 2020-06-25 15:03:25
+2020-06-28 16:08:28 [fb] INFO: Parsing post n = 147, post_date = 2020-06-25 14:56:39
+2020-06-28 16:08:28 [fb] INFO: Parsing post n = 148, post_date = 2020-06-25 14:40:58
+2020-06-28 16:08:28 [fb] INFO: Parsing post n = 149, post_date = 2020-06-25 14:17:15
+2020-06-28 16:08:28 [fb] INFO: Parsing post n = 150, post_date = 2020-06-25 14:00:42
+2020-06-28 16:08:28 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593064842%3A04611686018427387904%3A09223372036854775658%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593064842%3A04611686018427387904%3A09223372036854775658%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:08:56 [scrapy.extensions.logstats] INFO: Crawled 320 pages (at 16 pages/min), scraped 142 items (at 7 items/min)
+2020-06-28 16:09:10 [fb] INFO: Parsing post n = 151, post_date = 2020-06-25 13:20:26
+2020-06-28 16:09:10 [fb] INFO: Parsing post n = 152, post_date = 2020-06-25 13:05:17
+2020-06-28 16:09:10 [fb] INFO: Parsing post n = 153, post_date = 2020-06-25 12:55:58
+2020-06-28 16:09:10 [fb] INFO: Parsing post n = 154, post_date = 2020-06-25 12:40:34
+2020-06-28 16:09:10 [fb] INFO: Parsing post n = 155, post_date = 2020-06-25 12:23:25
+2020-06-28 16:09:10 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593059005%3A04611686018427387904%3A09223372036854775653%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593059005%3A04611686018427387904%3A09223372036854775653%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:09:46 [fb] INFO: Parsing post n = 156, post_date = 2020-06-25 12:10:21
+2020-06-28 16:09:46 [fb] INFO: Parsing post n = 157, post_date = 2020-06-25 11:57:27
+2020-06-28 16:09:46 [fb] INFO: Parsing post n = 158, post_date = 2020-06-25 11:31:11
+2020-06-28 16:09:46 [fb] INFO: Parsing post n = 159, post_date = 2020-06-25 11:15:07
+2020-06-28 16:09:46 [fb] INFO: Parsing post n = 160, post_date = 2020-06-25 11:00:51
+2020-06-28 16:09:46 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593054051%3A04611686018427387904%3A09223372036854775648%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593054051%3A04611686018427387904%3A09223372036854775648%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:09:56 [scrapy.extensions.logstats] INFO: Crawled 336 pages (at 16 pages/min), scraped 147 items (at 5 items/min)
+2020-06-28 16:10:24 [fb] INFO: Parsing post n = 161, post_date = 2020-06-25 10:49:46
+2020-06-28 16:10:24 [fb] INFO: Parsing post n = 162, post_date = 2020-06-25 10:37:56
+2020-06-28 16:10:24 [fb] INFO: Parsing post n = 163, post_date = 2020-06-25 10:23:18
+2020-06-28 16:10:24 [fb] INFO: Parsing post n = 164, post_date = 2020-06-25 10:00:55
+2020-06-28 16:10:24 [fb] INFO: Parsing post n = 165, post_date = 2020-06-25 09:41:26
+2020-06-28 16:10:24 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593049286%3A04611686018427387904%3A09223372036854775643%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593049286%3A04611686018427387904%3A09223372036854775643%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:10:56 [scrapy.extensions.logstats] INFO: Crawled 353 pages (at 17 pages/min), scraped 157 items (at 10 items/min)
+2020-06-28 16:11:08 [fb] INFO: Parsing post n = 166, post_date = 2020-06-25 09:20:29
+2020-06-28 16:11:08 [fb] INFO: Parsing post n = 167, post_date = 2020-06-25 09:00:36
+2020-06-28 16:11:08 [fb] INFO: Parsing post n = 168, post_date = 2020-06-25 08:40:36
+2020-06-28 16:11:08 [fb] INFO: Parsing post n = 169, post_date = 2020-06-25 08:05:47
+2020-06-28 16:11:08 [fb] INFO: Parsing post n = 170, post_date = 2020-06-25 07:50:49
+2020-06-28 16:11:08 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593042649%3A04611686018427387904%3A09223372036854775638%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593042649%3A04611686018427387904%3A09223372036854775638%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:11:51 [fb] INFO: Parsing post n = 171, post_date = 2020-06-25 07:30:38
+2020-06-28 16:11:51 [fb] INFO: Parsing post n = 172, post_date = 2020-06-25 00:09:53
+2020-06-28 16:11:51 [fb] INFO: Parsing post n = 173, post_date = 2020-06-24 23:24:49
+2020-06-28 16:11:51 [fb] INFO: Parsing post n = 174, post_date = 2020-06-24 23:10:11
+2020-06-28 16:11:51 [fb] INFO: Parsing post n = 175, post_date = 2020-06-24 22:41:32
+2020-06-28 16:11:51 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593009692%3A04611686018427387904%3A09223372036854775633%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593009692%3A04611686018427387904%3A09223372036854775633%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:11:56 [scrapy.extensions.logstats] INFO: Crawled 371 pages (at 18 pages/min), scraped 163 items (at 6 items/min)
+2020-06-28 16:12:40 [fb] INFO: Parsing post n = 176, post_date = 2020-06-24 22:24:22
+2020-06-28 16:12:40 [fb] INFO: Parsing post n = 177, post_date = 2020-06-24 22:05:57
+2020-06-28 16:12:40 [fb] INFO: Parsing post n = 178, post_date = 2020-06-24 22:00:54
+2020-06-28 16:12:40 [fb] INFO: Parsing post n = 179, post_date = 2020-06-24 21:43:45
+2020-06-28 16:12:40 [fb] INFO: Parsing post n = 180, post_date = 2020-06-24 21:26:17
+2020-06-28 16:12:40 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593005177%3A04611686018427387904%3A09223372036854775628%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593005177%3A04611686018427387904%3A09223372036854775628%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:12:56 [scrapy.extensions.logstats] INFO: Crawled 387 pages (at 16 pages/min), scraped 173 items (at 10 items/min)
+2020-06-28 16:13:23 [fb] INFO: Parsing post n = 181, post_date = 2020-06-24 21:10:05
+2020-06-28 16:13:23 [fb] INFO: Parsing post n = 182, post_date = 2020-06-24 20:55:52
+2020-06-28 16:13:23 [fb] INFO: Parsing post n = 183, post_date = 2020-06-24 20:40:16
+2020-06-28 16:13:23 [fb] INFO: Parsing post n = 184, post_date = 2020-06-24 20:25:45
+2020-06-28 16:13:23 [fb] INFO: Parsing post n = 185, post_date = 2020-06-24 20:09:24
+2020-06-28 16:13:23 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001593000564%3A04611686018427387904%3A09223372036854775623%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001593000564%3A04611686018427387904%3A09223372036854775623%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:13:53 [fb] INFO: Parsing post n = 186, post_date = 2020-06-24 20:00:33
+2020-06-28 16:13:53 [fb] INFO: Parsing post n = 187, post_date = 2020-06-24 19:41:19
+2020-06-28 16:13:53 [fb] INFO: Parsing post n = 188, post_date = 2020-06-24 19:17:46
+2020-06-28 16:13:53 [fb] INFO: Parsing post n = 189, post_date = 2020-06-24 18:44:53
+2020-06-28 16:13:53 [fb] INFO: Parsing post n = 190, post_date = 2020-06-24 18:30:42
+2020-06-28 16:13:53 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592994642%3A04611686018427387904%3A09223372036854775618%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592994642%3A04611686018427387904%3A09223372036854775618%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:13:56 [scrapy.extensions.logstats] INFO: Crawled 403 pages (at 16 pages/min), scraped 180 items (at 7 items/min)
+2020-06-28 16:14:28 [fb] INFO: Parsing post n = 191, post_date = 2020-06-24 18:18:04
+2020-06-28 16:14:28 [fb] INFO: Parsing post n = 192, post_date = 2020-06-24 17:59:57
+2020-06-28 16:14:28 [fb] INFO: Parsing post n = 193, post_date = 2020-06-24 17:45:29
+2020-06-28 16:14:28 [fb] INFO: Parsing post n = 194, post_date = 2020-06-24 17:16:22
+2020-06-28 16:14:28 [fb] INFO: Parsing post n = 195, post_date = 2020-06-24 17:06:31
+2020-06-28 16:14:28 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592989591%3A04611686018427387904%3A09223372036854775613%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592989591%3A04611686018427387904%3A09223372036854775613%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:14:56 [scrapy.extensions.logstats] INFO: Crawled 418 pages (at 15 pages/min), scraped 186 items (at 6 items/min)
+2020-06-28 16:15:20 [fb] INFO: Parsing post n = 196, post_date = 2020-06-24 16:58:05
+2020-06-28 16:15:20 [fb] INFO: Parsing post n = 197, post_date = 2020-06-24 16:31:14
+2020-06-28 16:15:20 [fb] INFO: Parsing post n = 198, post_date = 2020-06-24 16:15:00
+2020-06-28 16:15:20 [fb] INFO: Parsing post n = 199, post_date = 2020-06-24 16:00:48
+2020-06-28 16:15:20 [fb] INFO: Parsing post n = 200, post_date = 2020-06-24 15:47:19
+2020-06-28 16:15:20 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592984839%3A04611686018427387904%3A09223372036854775608%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592984839%3A04611686018427387904%3A09223372036854775608%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:15:56 [scrapy.extensions.logstats] INFO: Crawled 435 pages (at 17 pages/min), scraped 194 items (at 8 items/min)
+2020-06-28 16:16:08 [fb] INFO: Parsing post n = 201, post_date = 2020-06-24 15:30:10
+2020-06-28 16:16:08 [fb] INFO: Parsing post n = 202, post_date = 2020-06-24 15:16:32
+2020-06-28 16:16:08 [fb] INFO: Parsing post n = 203, post_date = 2020-06-24 15:03:59
+2020-06-28 16:16:08 [fb] INFO: Parsing post n = 204, post_date = 2020-06-24 14:50:35
+2020-06-28 16:16:08 [fb] INFO: Parsing post n = 205, post_date = 2020-06-24 14:43:39
+2020-06-28 16:16:08 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592981019%3A04611686018427387904%3A09223372036854775603%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592981019%3A04611686018427387904%3A09223372036854775603%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:16:53 [fb] INFO: Parsing post n = 206, post_date = 2020-06-24 14:21:10
+2020-06-28 16:16:53 [fb] INFO: Parsing post n = 207, post_date = 2020-06-24 14:04:48
+2020-06-28 16:16:53 [fb] INFO: Parsing post n = 208, post_date = 2020-06-24 13:42:26
+2020-06-28 16:16:53 [fb] INFO: Parsing post n = 209, post_date = 2020-06-24 13:31:07
+2020-06-28 16:16:53 [fb] INFO: Parsing post n = 210, post_date = 2020-06-24 13:15:52
+2020-06-28 16:16:53 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592975752%3A04611686018427387904%3A09223372036854775598%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592975752%3A04611686018427387904%3A09223372036854775598%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:16:56 [scrapy.extensions.logstats] INFO: Crawled 451 pages (at 16 pages/min), scraped 201 items (at 7 items/min)
+2020-06-28 16:17:28 [fb] INFO: Parsing post n = 211, post_date = 2020-06-24 13:01:10
+2020-06-28 16:17:28 [fb] INFO: Parsing post n = 212, post_date = 2020-06-24 12:38:32
+2020-06-28 16:17:28 [fb] INFO: Parsing post n = 213, post_date = 2020-06-24 12:30:01
+2020-06-28 16:17:28 [fb] INFO: Parsing post n = 214, post_date = 2020-06-24 12:12:23
+2020-06-28 16:17:28 [fb] INFO: Parsing post n = 215, post_date = 2020-06-24 12:00:12
+2020-06-28 16:17:28 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592971212%3A04611686018427387904%3A09223372036854775593%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592971212%3A04611686018427387904%3A09223372036854775593%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:17:54 [fb] INFO: Parsing post n = 216, post_date = 2020-06-24 11:46:13
+2020-06-28 16:17:54 [fb] INFO: Parsing post n = 217, post_date = 2020-06-24 11:01:17
+2020-06-28 16:17:54 [fb] INFO: Parsing post n = 218, post_date = 2020-06-24 09:59:47
+2020-06-28 16:17:54 [fb] INFO: Parsing post n = 219, post_date = 2020-06-24 09:45:58
+2020-06-28 16:17:54 [fb] INFO: Parsing post n = 220, post_date = 2020-06-24 09:29:01
+2020-06-28 16:17:54 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592962141%3A04611686018427387904%3A09223372036854775588%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592962141%3A04611686018427387904%3A09223372036854775588%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:17:56 [scrapy.extensions.logstats] INFO: Crawled 467 pages (at 16 pages/min), scraped 209 items (at 8 items/min)
+2020-06-28 16:18:39 [fb] INFO: Parsing post n = 221, post_date = 2020-06-24 09:16:12
+2020-06-28 16:18:39 [fb] INFO: Parsing post n = 222, post_date = 2020-06-24 09:01:11
+2020-06-28 16:18:39 [fb] INFO: Parsing post n = 223, post_date = 2020-06-24 08:43:45
+2020-06-28 16:18:39 [fb] INFO: Parsing post n = 224, post_date = 2020-06-24 08:25:34
+2020-06-28 16:18:39 [fb] INFO: Parsing post n = 225, post_date = 2020-06-24 08:11:28
+2020-06-28 16:18:39 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592957488%3A04611686018427387904%3A09223372036854775583%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592957488%3A04611686018427387904%3A09223372036854775583%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:18:56 [scrapy.extensions.logstats] INFO: Crawled 483 pages (at 16 pages/min), scraped 215 items (at 6 items/min)
+2020-06-28 16:19:25 [fb] INFO: Parsing post n = 226, post_date = 2020-06-24 07:57:41
+2020-06-28 16:19:25 [fb] INFO: Parsing post n = 227, post_date = 2020-06-24 07:30:39
+2020-06-28 16:19:25 [fb] INFO: Parsing post n = 228, post_date = 2020-06-24 07:15:38
+2020-06-28 16:19:25 [fb] INFO: Parsing post n = 229, post_date = 2020-06-24 00:10:42
+2020-06-28 16:19:25 [fb] INFO: Parsing post n = 230, post_date = 2020-06-23 23:57:22
+2020-06-28 16:19:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592927842%3A04611686018427387904%3A09223372036854775578%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592927842%3A04611686018427387904%3A09223372036854775578%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:19:54 [fb] INFO: Parsing post n = 231, post_date = 2020-06-23 23:41:03
+2020-06-28 16:19:54 [fb] INFO: Parsing post n = 232, post_date = 2020-06-23 23:10:47
+2020-06-28 16:19:54 [fb] INFO: Parsing post n = 233, post_date = 2020-06-23 23:00:24
+2020-06-28 16:19:54 [fb] INFO: Parsing post n = 234, post_date = 2020-06-23 22:50:24
+2020-06-28 16:19:54 [fb] INFO: Parsing post n = 235, post_date = 2020-06-23 22:41:24
+2020-06-28 16:19:54 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592923284%3A04611686018427387904%3A09223372036854775573%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592923284%3A04611686018427387904%3A09223372036854775573%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:19:56 [scrapy.extensions.logstats] INFO: Crawled 499 pages (at 16 pages/min), scraped 222 items (at 7 items/min)
+2020-06-28 16:20:37 [fb] INFO: Parsing post n = 236, post_date = 2020-06-23 22:20:31
+2020-06-28 16:20:37 [fb] INFO: Parsing post n = 237, post_date = 2020-06-23 22:10:38
+2020-06-28 16:20:37 [fb] INFO: Parsing post n = 238, post_date = 2020-06-23 22:00:53
+2020-06-28 16:20:37 [fb] INFO: Parsing post n = 239, post_date = 2020-06-23 21:41:09
+2020-06-28 16:20:37 [fb] INFO: Parsing post n = 240, post_date = 2020-06-23 21:20:33
+2020-06-28 16:20:37 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592918433%3A04611686018427387904%3A09223372036854775568%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592918433%3A04611686018427387904%3A09223372036854775568%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:20:56 [scrapy.extensions.logstats] INFO: Crawled 516 pages (at 17 pages/min), scraped 230 items (at 8 items/min)
+2020-06-28 16:21:32 [fb] INFO: Parsing post n = 241, post_date = 2020-06-23 21:10:33
+2020-06-28 16:21:32 [fb] INFO: Parsing post n = 242, post_date = 2020-06-23 21:02:06
+2020-06-28 16:21:32 [fb] INFO: Parsing post n = 243, post_date = 2020-06-23 20:40:58
+2020-06-28 16:21:32 [fb] INFO: Parsing post n = 244, post_date = 2020-06-23 20:20:26
+2020-06-28 16:21:32 [fb] INFO: Parsing post n = 245, post_date = 2020-06-23 20:00:26
+2020-06-28 16:21:33 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592913626%3A04611686018427387904%3A09223372036854775563%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592913626%3A04611686018427387904%3A09223372036854775563%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:21:56 [scrapy.extensions.logstats] INFO: Crawled 531 pages (at 15 pages/min), scraped 239 items (at 9 items/min)
+2020-06-28 16:22:23 [fb] INFO: Parsing post n = 246, post_date = 2020-06-23 20:00:00
+2020-06-28 16:22:23 [fb] INFO: Parsing post n = 247, post_date = 2020-06-23 19:41:09
+2020-06-28 16:22:23 [fb] INFO: Parsing post n = 248, post_date = 2020-06-23 19:20:31
+2020-06-28 16:22:23 [fb] INFO: Parsing post n = 249, post_date = 2020-06-23 19:00:34
+2020-06-28 16:22:23 [fb] INFO: Parsing post n = 250, post_date = 2020-06-23 18:49:59
+2020-06-28 16:22:23 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592909399%3A04611686018427387904%3A09223372036854775558%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592909399%3A04611686018427387904%3A09223372036854775558%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:22:55 [fb] INFO: Parsing post n = 251, post_date = 2020-06-23 18:40:00
+2020-06-28 16:22:55 [fb] INFO: Parsing post n = 252, post_date = 2020-06-23 18:23:00
+2020-06-28 16:22:55 [fb] INFO: Parsing post n = 253, post_date = 2020-06-23 18:12:22
+2020-06-28 16:22:55 [fb] INFO: Parsing post n = 254, post_date = 2020-06-23 18:00:31
+2020-06-28 16:22:55 [fb] INFO: Parsing post n = 255, post_date = 2020-06-23 17:26:56
+2020-06-28 16:22:55 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592904416%3A04611686018427387904%3A09223372036854775553%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592904416%3A04611686018427387904%3A09223372036854775553%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:22:56 [scrapy.extensions.logstats] INFO: Crawled 547 pages (at 16 pages/min), scraped 245 items (at 6 items/min)
+2020-06-28 16:23:24 [fb] INFO: Parsing post n = 256, post_date = 2020-06-23 17:12:22
+2020-06-28 16:23:24 [fb] INFO: Parsing post n = 257, post_date = 2020-06-23 17:00:18
+2020-06-28 16:23:24 [fb] INFO: Parsing post n = 258, post_date = 2020-06-23 16:50:28
+2020-06-28 16:23:24 [fb] INFO: Parsing post n = 259, post_date = 2020-06-23 16:22:35
+2020-06-28 16:23:24 [fb] INFO: Parsing post n = 260, post_date = 2020-06-23 16:19:16
+2020-06-28 16:23:24 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592900356%3A04611686018427387904%3A09223372036854775548%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592900356%3A04611686018427387904%3A09223372036854775548%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:23:56 [scrapy.extensions.logstats] INFO: Crawled 564 pages (at 17 pages/min), scraped 252 items (at 7 items/min)
+2020-06-28 16:23:58 [fb] INFO: Parsing post n = 261, post_date = 2020-06-23 16:07:51
+2020-06-28 16:23:58 [fb] INFO: Parsing post n = 262, post_date = 2020-06-23 15:49:16
+2020-06-28 16:23:58 [fb] INFO: Parsing post n = 263, post_date = 2020-06-23 15:25:49
+2020-06-28 16:23:58 [fb] INFO: Parsing post n = 264, post_date = 2020-06-23 15:17:29
+2020-06-28 16:23:58 [fb] INFO: Parsing post n = 265, post_date = 2020-06-23 14:42:07
+2020-06-28 16:23:58 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592894527%3A04611686018427387904%3A09223372036854775543%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592894527%3A04611686018427387904%3A09223372036854775543%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:24:48 [fb] INFO: Parsing post n = 266, post_date = 2020-06-23 14:36:39
+2020-06-28 16:24:48 [fb] INFO: Parsing post n = 267, post_date = 2020-06-23 14:26:07
+2020-06-28 16:24:48 [fb] INFO: Parsing post n = 268, post_date = 2020-06-23 14:01:03
+2020-06-28 16:24:48 [fb] INFO: Parsing post n = 269, post_date = 2020-06-23 13:45:33
+2020-06-28 16:24:48 [fb] INFO: Parsing post n = 270, post_date = 2020-06-23 13:25:23
+2020-06-28 16:24:48 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592889923%3A04611686018427387904%3A09223372036854775538%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592889923%3A04611686018427387904%3A09223372036854775538%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:24:56 [scrapy.extensions.logstats] INFO: Crawled 580 pages (at 16 pages/min), scraped 258 items (at 6 items/min)
+2020-06-28 16:25:25 [fb] INFO: Parsing post n = 271, post_date = 2020-06-23 13:09:36
+2020-06-28 16:25:25 [fb] INFO: Parsing post n = 272, post_date = 2020-06-23 12:44:03
+2020-06-28 16:25:25 [fb] INFO: Parsing post n = 273, post_date = 2020-06-23 12:20:51
+2020-06-28 16:25:25 [fb] INFO: Parsing post n = 274, post_date = 2020-06-23 12:00:45
+2020-06-28 16:25:25 [fb] INFO: Parsing post n = 275, post_date = 2020-06-23 11:51:06
+2020-06-28 16:25:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592884266%3A04611686018427387904%3A09223372036854775533%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592884266%3A04611686018427387904%3A09223372036854775533%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:25:56 [scrapy.extensions.logstats] INFO: Crawled 598 pages (at 18 pages/min), scraped 267 items (at 9 items/min)
+2020-06-28 16:26:05 [fb] INFO: Parsing post n = 276, post_date = 2020-06-23 11:23:16
+2020-06-28 16:26:06 [fb] INFO: Parsing post n = 277, post_date = 2020-06-23 11:10:57
+2020-06-28 16:26:06 [fb] INFO: Parsing post n = 278, post_date = 2020-06-23 10:45:54
+2020-06-28 16:26:06 [fb] INFO: Parsing post n = 279, post_date = 2020-06-23 10:20:49
+2020-06-28 16:26:06 [fb] INFO: Parsing post n = 280, post_date = 2020-06-23 10:00:01
+2020-06-28 16:26:06 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592877601%3A04611686018427387904%3A09223372036854775528%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592877601%3A04611686018427387904%3A09223372036854775528%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:26:53 [fb] INFO: Parsing post n = 281, post_date = 2020-06-23 10:00:01
+2020-06-28 16:26:53 [fb] INFO: Parsing post n = 282, post_date = 2020-06-23 09:35:55
+2020-06-28 16:26:53 [fb] INFO: Parsing post n = 283, post_date = 2020-06-23 09:16:24
+2020-06-28 16:26:53 [fb] INFO: Parsing post n = 284, post_date = 2020-06-23 08:50:35
+2020-06-28 16:26:53 [fb] INFO: Parsing post n = 285, post_date = 2020-06-23 08:30:19
+2020-06-28 16:26:53 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592872219%3A04611686018427387904%3A09223372036854775523%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592872219%3A04611686018427387904%3A09223372036854775523%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:26:56 [scrapy.extensions.logstats] INFO: Crawled 614 pages (at 16 pages/min), scraped 275 items (at 8 items/min)
+2020-06-28 16:27:26 [fb] INFO: Parsing post n = 286, post_date = 2020-06-23 08:10:22
+2020-06-28 16:27:26 [fb] INFO: Parsing post n = 287, post_date = 2020-06-23 07:50:41
+2020-06-28 16:27:26 [fb] INFO: Parsing post n = 288, post_date = 2020-06-23 07:30:53
+2020-06-28 16:27:26 [fb] INFO: Parsing post n = 289, post_date = 2020-06-22 23:47:47
+2020-06-28 16:27:26 [fb] INFO: Parsing post n = 290, post_date = 2020-06-22 23:32:11
+2020-06-28 16:27:26 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592839931%3A04611686018427387904%3A09223372036854775518%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592839931%3A04611686018427387904%3A09223372036854775518%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:27:56 [scrapy.extensions.logstats] INFO: Crawled 630 pages (at 16 pages/min), scraped 283 items (at 8 items/min)
+2020-06-28 16:28:09 [fb] INFO: Parsing post n = 291, post_date = 2020-06-22 23:09:09
+2020-06-28 16:28:09 [fb] INFO: Parsing post n = 292, post_date = 2020-06-22 22:23:00
+2020-06-28 16:28:09 [fb] INFO: Parsing post n = 293, post_date = 2020-06-22 22:00:07
+2020-06-28 16:28:09 [fb] INFO: Parsing post n = 294, post_date = 2020-06-22 21:52:16
+2020-06-28 16:28:09 [fb] INFO: Parsing post n = 295, post_date = 2020-06-22 21:36:21
+2020-06-28 16:28:09 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592832981%3A04611686018427387904%3A09223372036854775513%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592832981%3A04611686018427387904%3A09223372036854775513%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:28:53 [fb] INFO: Parsing post n = 296, post_date = 2020-06-22 21:14:56
+2020-06-28 16:28:53 [fb] INFO: Parsing post n = 297, post_date = 2020-06-22 21:14:51
+2020-06-28 16:28:53 [fb] INFO: Parsing post n = 298, post_date = 2020-06-22 20:56:14
+2020-06-28 16:28:53 [fb] INFO: Parsing post n = 299, post_date = 2020-06-22 20:35:55
+2020-06-28 16:28:53 [fb] INFO: Parsing post n = 300, post_date = 2020-06-22 20:14:47
+2020-06-28 16:28:53 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592828087%3A04611686018427387904%3A09223372036854775508%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592828087%3A04611686018427387904%3A09223372036854775508%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:28:56 [scrapy.extensions.logstats] INFO: Crawled 647 pages (at 17 pages/min), scraped 290 items (at 7 items/min)
+2020-06-28 16:29:32 [fb] INFO: Parsing post n = 301, post_date = 2020-06-22 20:00:26
+2020-06-28 16:29:32 [fb] INFO: Parsing post n = 302, post_date = 2020-06-22 19:45:25
+2020-06-28 16:29:32 [fb] INFO: Parsing post n = 303, post_date = 2020-06-22 19:31:29
+2020-06-28 16:29:32 [fb] INFO: Parsing post n = 304, post_date = 2020-06-22 19:01:27
+2020-06-28 16:29:32 [fb] INFO: Parsing post n = 305, post_date = 2020-06-22 18:45:53
+2020-06-28 16:29:32 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592822753%3A04611686018427387904%3A09223372036854775503%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592822753%3A04611686018427387904%3A09223372036854775503%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:29:56 [scrapy.extensions.logstats] INFO: Crawled 663 pages (at 16 pages/min), scraped 299 items (at 9 items/min)
+2020-06-28 16:30:06 [fb] INFO: Parsing post n = 306, post_date = 2020-06-22 18:19:12
+2020-06-28 16:30:06 [fb] INFO: Parsing post n = 307, post_date = 2020-06-22 17:56:13
+2020-06-28 16:30:06 [fb] INFO: Parsing post n = 308, post_date = 2020-06-22 17:34:36
+2020-06-28 16:30:06 [fb] INFO: Parsing post n = 309, post_date = 2020-06-22 17:20:25
+2020-06-28 16:30:06 [fb] INFO: Parsing post n = 310, post_date = 2020-06-22 17:06:05
+2020-06-28 16:30:06 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592816765%3A04611686018427387904%3A09223372036854775498%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592816765%3A04611686018427387904%3A09223372036854775498%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:30:35 [fb] INFO: Parsing post n = 311, post_date = 2020-06-22 16:59:15
+2020-06-28 16:30:35 [fb] INFO: Parsing post n = 312, post_date = 2020-06-22 16:45:40
+2020-06-28 16:30:35 [fb] INFO: Parsing post n = 313, post_date = 2020-06-22 16:30:59
+2020-06-28 16:30:35 [fb] INFO: Parsing post n = 314, post_date = 2020-06-22 16:16:00
+2020-06-28 16:30:35 [fb] INFO: Parsing post n = 315, post_date = 2020-06-22 16:00:55
+2020-06-28 16:30:35 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592812855%3A04611686018427387904%3A09223372036854775493%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592812855%3A04611686018427387904%3A09223372036854775493%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:30:56 [scrapy.extensions.logstats] INFO: Crawled 679 pages (at 16 pages/min), scraped 303 items (at 4 items/min)
+2020-06-28 16:31:16 [fb] INFO: Parsing post n = 316, post_date = 2020-06-22 15:46:13
+2020-06-28 16:31:16 [fb] INFO: Parsing post n = 317, post_date = 2020-06-22 15:30:48
+2020-06-28 16:31:16 [fb] INFO: Parsing post n = 318, post_date = 2020-06-22 15:14:37
+2020-06-28 16:31:16 [fb] INFO: Parsing post n = 319, post_date = 2020-06-22 14:31:17
+2020-06-28 16:31:16 [fb] INFO: Parsing post n = 320, post_date = 2020-06-22 14:30:55
+2020-06-28 16:31:16 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592807455%3A04611686018427387904%3A09223372036854775488%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592807455%3A04611686018427387904%3A09223372036854775488%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:31:56 [scrapy.extensions.logstats] INFO: Crawled 696 pages (at 17 pages/min), scraped 312 items (at 9 items/min)
+2020-06-28 16:32:03 [fb] INFO: Parsing post n = 321, post_date = 2020-06-22 13:59:40
+2020-06-28 16:32:03 [fb] INFO: Parsing post n = 322, post_date = 2020-06-22 13:35:59
+2020-06-28 16:32:03 [fb] INFO: Parsing post n = 323, post_date = 2020-06-22 13:20:31
+2020-06-28 16:32:03 [fb] INFO: Parsing post n = 324, post_date = 2020-06-22 13:05:29
+2020-06-28 16:32:03 [fb] INFO: Parsing post n = 325, post_date = 2020-06-22 12:50:33
+2020-06-28 16:32:03 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592801433%3A04611686018427387904%3A09223372036854775483%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592801433%3A04611686018427387904%3A09223372036854775483%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:32:50 [fb] INFO: Parsing post n = 326, post_date = 2020-06-22 12:30:01
+2020-06-28 16:32:50 [fb] INFO: Parsing post n = 327, post_date = 2020-06-22 12:10:49
+2020-06-28 16:32:50 [fb] INFO: Parsing post n = 328, post_date = 2020-06-22 11:44:02
+2020-06-28 16:32:50 [fb] INFO: Parsing post n = 329, post_date = 2020-06-22 11:21:09
+2020-06-28 16:32:50 [fb] INFO: Parsing post n = 330, post_date = 2020-06-22 11:12:23
+2020-06-28 16:32:50 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592795543%3A04611686018427387904%3A09223372036854775478%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592795543%3A04611686018427387904%3A09223372036854775478%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:32:56 [scrapy.extensions.logstats] INFO: Crawled 711 pages (at 15 pages/min), scraped 318 items (at 6 items/min)
+2020-06-28 16:33:37 [fb] INFO: Parsing post n = 331, post_date = 2020-06-22 11:04:23
+2020-06-28 16:33:37 [fb] INFO: Parsing post n = 332, post_date = 2020-06-22 10:45:08
+2020-06-28 16:33:37 [fb] INFO: Parsing post n = 333, post_date = 2020-06-22 10:25:47
+2020-06-28 16:33:37 [fb] INFO: Parsing post n = 334, post_date = 2020-06-22 10:06:03
+2020-06-28 16:33:37 [fb] INFO: Parsing post n = 335, post_date = 2020-06-22 09:50:21
+2020-06-28 16:33:37 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592790621%3A04611686018427387904%3A09223372036854775473%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592790621%3A04611686018427387904%3A09223372036854775473%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:33:56 [scrapy.extensions.logstats] INFO: Crawled 726 pages (at 15 pages/min), scraped 326 items (at 8 items/min)
+2020-06-28 16:34:12 [fb] INFO: Parsing post n = 336, post_date = 2020-06-22 09:34:09
+2020-06-28 16:34:12 [fb] INFO: Parsing post n = 337, post_date = 2020-06-22 09:10:59
+2020-06-28 16:34:12 [fb] INFO: Parsing post n = 338, post_date = 2020-06-22 08:49:54
+2020-06-28 16:34:12 [fb] INFO: Parsing post n = 339, post_date = 2020-06-22 08:30:28
+2020-06-28 16:34:12 [fb] INFO: Parsing post n = 340, post_date = 2020-06-22 08:10:49
+2020-06-28 16:34:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592784649%3A04611686018427387904%3A09223372036854775468%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592784649%3A04611686018427387904%3A09223372036854775468%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:34:56 [scrapy.extensions.logstats] INFO: Crawled 742 pages (at 16 pages/min), scraped 332 items (at 6 items/min)
+2020-06-28 16:34:57 [fb] INFO: Parsing post n = 341, post_date = 2020-06-22 07:50:19
+2020-06-28 16:34:57 [fb] INFO: Parsing post n = 342, post_date = 2020-06-22 07:28:34
+2020-06-28 16:34:57 [fb] INFO: Parsing post n = 343, post_date = 2020-06-21 23:45:12
+2020-06-28 16:34:57 [fb] INFO: Parsing post n = 344, post_date = 2020-06-21 22:54:47
+2020-06-28 16:34:57 [fb] INFO: Parsing post n = 345, post_date = 2020-06-21 22:40:04
+2020-06-28 16:34:57 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592750404%3A04611686018427387904%3A09223372036854775463%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592750404%3A04611686018427387904%3A09223372036854775463%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:35:44 [fb] INFO: Parsing post n = 346, post_date = 2020-06-21 22:26:28
+2020-06-28 16:35:44 [fb] INFO: Parsing post n = 347, post_date = 2020-06-21 22:00:59
+2020-06-28 16:35:44 [fb] INFO: Parsing post n = 348, post_date = 2020-06-21 21:45:57
+2020-06-28 16:35:44 [fb] INFO: Parsing post n = 349, post_date = 2020-06-21 21:36:00
+2020-06-28 16:35:44 [fb] INFO: Parsing post n = 350, post_date = 2020-06-21 21:20:56
+2020-06-28 16:35:44 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592745656%3A04611686018427387904%3A09223372036854775458%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592745656%3A04611686018427387904%3A09223372036854775458%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:35:56 [scrapy.extensions.logstats] INFO: Crawled 758 pages (at 16 pages/min), scraped 341 items (at 9 items/min)
+2020-06-28 16:36:23 [fb] INFO: Parsing post n = 351, post_date = 2020-06-21 21:05:04
+2020-06-28 16:36:23 [fb] INFO: Parsing post n = 352, post_date = 2020-06-21 20:21:56
+2020-06-28 16:36:23 [fb] INFO: Parsing post n = 353, post_date = 2020-06-21 19:50:42
+2020-06-28 16:36:23 [fb] INFO: Parsing post n = 354, post_date = 2020-06-21 19:17:40
+2020-06-28 16:36:23 [fb] INFO: Parsing post n = 355, post_date = 2020-06-21 18:50:38
+2020-06-28 16:36:24 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592736638%3A04611686018427387904%3A09223372036854775453%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592736638%3A04611686018427387904%3A09223372036854775453%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:36:56 [scrapy.extensions.logstats] INFO: Crawled 776 pages (at 18 pages/min), scraped 349 items (at 8 items/min)
+2020-06-28 16:37:02 [fb] INFO: Parsing post n = 356, post_date = 2020-06-21 18:16:47
+2020-06-28 16:37:02 [fb] INFO: Parsing post n = 357, post_date = 2020-06-21 17:46:36
+2020-06-28 16:37:02 [fb] INFO: Parsing post n = 358, post_date = 2020-06-21 17:16:59
+2020-06-28 16:37:02 [fb] INFO: Parsing post n = 359, post_date = 2020-06-21 16:42:42
+2020-06-28 16:37:02 [fb] INFO: Parsing post n = 360, post_date = 2020-06-21 16:07:19
+2020-06-28 16:37:02 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592726839%3A04611686018427387904%3A09223372036854775448%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592726839%3A04611686018427387904%3A09223372036854775448%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:37:44 [fb] INFO: Parsing post n = 361, post_date = 2020-06-21 15:58:41
+2020-06-28 16:37:44 [fb] INFO: Parsing post n = 362, post_date = 2020-06-21 15:33:54
+2020-06-28 16:37:44 [fb] INFO: Parsing post n = 363, post_date = 2020-06-21 15:21:42
+2020-06-28 16:37:44 [fb] INFO: Parsing post n = 364, post_date = 2020-06-21 15:00:54
+2020-06-28 16:37:44 [fb] INFO: Parsing post n = 365, post_date = 2020-06-21 14:41:03
+2020-06-28 16:37:44 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592721663%3A04611686018427387904%3A09223372036854775443%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592721663%3A04611686018427387904%3A09223372036854775443%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:37:56 [scrapy.extensions.logstats] INFO: Crawled 792 pages (at 16 pages/min), scraped 357 items (at 8 items/min)
+2020-06-28 16:38:29 [fb] INFO: Parsing post n = 366, post_date = 2020-06-21 14:21:11
+2020-06-28 16:38:29 [fb] INFO: Parsing post n = 367, post_date = 2020-06-21 14:00:01
+2020-06-28 16:38:29 [fb] INFO: Parsing post n = 368, post_date = 2020-06-21 13:35:29
+2020-06-28 16:38:29 [fb] INFO: Parsing post n = 369, post_date = 2020-06-21 13:11:03
+2020-06-28 16:38:29 [fb] INFO: Parsing post n = 370, post_date = 2020-06-21 13:00:38
+2020-06-28 16:38:29 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592715638%3A04611686018427387904%3A09223372036854775438%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592715638%3A04611686018427387904%3A09223372036854775438%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:38:56 [scrapy.extensions.logstats] INFO: Crawled 807 pages (at 15 pages/min), scraped 365 items (at 8 items/min)
+2020-06-28 16:39:01 [fb] INFO: Parsing post n = 371, post_date = 2020-06-21 12:35:00
+2020-06-28 16:39:01 [fb] INFO: Parsing post n = 372, post_date = 2020-06-21 12:09:44
+2020-06-28 16:39:01 [fb] INFO: Parsing post n = 373, post_date = 2020-06-21 11:56:13
+2020-06-28 16:39:01 [fb] INFO: Parsing post n = 374, post_date = 2020-06-21 11:30:15
+2020-06-28 16:39:01 [fb] INFO: Parsing post n = 375, post_date = 2020-06-21 10:57:49
+2020-06-28 16:39:01 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592708269%3A04611686018427387904%3A09223372036854775433%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592708269%3A04611686018427387904%3A09223372036854775433%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:39:28 [fb] INFO: Parsing post n = 376, post_date = 2020-06-21 10:42:49
+2020-06-28 16:39:28 [fb] INFO: Parsing post n = 377, post_date = 2020-06-21 10:21:10
+2020-06-28 16:39:28 [fb] INFO: Parsing post n = 378, post_date = 2020-06-21 10:06:32
+2020-06-28 16:39:28 [fb] INFO: Parsing post n = 379, post_date = 2020-06-21 09:45:49
+2020-06-28 16:39:28 [fb] INFO: Parsing post n = 380, post_date = 2020-06-21 09:16:12
+2020-06-28 16:39:28 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592702172%3A04611686018427387904%3A09223372036854775428%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592702172%3A04611686018427387904%3A09223372036854775428%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:39:56 [scrapy.extensions.logstats] INFO: Crawled 824 pages (at 17 pages/min), scraped 371 items (at 6 items/min)
+2020-06-28 16:40:03 [fb] INFO: Parsing post n = 381, post_date = 2020-06-21 08:55:30
+2020-06-28 16:40:03 [fb] INFO: Parsing post n = 382, post_date = 2020-06-21 08:25:34
+2020-06-28 16:40:03 [fb] INFO: Parsing post n = 383, post_date = 2020-06-21 07:58:34
+2020-06-28 16:40:03 [fb] INFO: Parsing post n = 384, post_date = 2020-06-21 07:41:30
+2020-06-28 16:40:03 [fb] INFO: Parsing post n = 385, post_date = 2020-06-20 23:31:13
+2020-06-28 16:40:03 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592667073%3A04611686018427387904%3A09223372036854775423%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592667073%3A04611686018427387904%3A09223372036854775423%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:40:43 [fb] INFO: Parsing post n = 386, post_date = 2020-06-20 23:00:24
+2020-06-28 16:40:44 [fb] INFO: Parsing post n = 387, post_date = 2020-06-20 22:40:25
+2020-06-28 16:40:44 [fb] INFO: Parsing post n = 388, post_date = 2020-06-20 22:20:20
+2020-06-28 16:40:44 [fb] INFO: Parsing post n = 389, post_date = 2020-06-20 21:51:10
+2020-06-28 16:40:44 [fb] INFO: Parsing post n = 390, post_date = 2020-06-20 21:35:45
+2020-06-28 16:40:44 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592660145%3A04611686018427387904%3A09223372036854775418%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592660145%3A04611686018427387904%3A09223372036854775418%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:40:56 [scrapy.extensions.logstats] INFO: Crawled 841 pages (at 17 pages/min), scraped 377 items (at 6 items/min)
+2020-06-28 16:41:36 [fb] INFO: Parsing post n = 391, post_date = 2020-06-20 21:21:12
+2020-06-28 16:41:36 [fb] INFO: Parsing post n = 392, post_date = 2020-06-20 20:48:01
+2020-06-28 16:41:36 [fb] INFO: Parsing post n = 393, post_date = 2020-06-20 20:31:09
+2020-06-28 16:41:36 [fb] INFO: Parsing post n = 394, post_date = 2020-06-20 20:15:07
+2020-06-28 16:41:36 [fb] INFO: Parsing post n = 395, post_date = 2020-06-20 19:56:49
+2020-06-28 16:41:36 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592654209%3A04611686018427387904%3A09223372036854775413%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592654209%3A04611686018427387904%3A09223372036854775413%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:41:56 [scrapy.extensions.logstats] INFO: Crawled 857 pages (at 16 pages/min), scraped 386 items (at 9 items/min)
+2020-06-28 16:42:21 [fb] INFO: Parsing post n = 396, post_date = 2020-06-20 19:17:32
+2020-06-28 16:42:21 [fb] INFO: Parsing post n = 397, post_date = 2020-06-20 19:16:23
+2020-06-28 16:42:21 [fb] INFO: Parsing post n = 398, post_date = 2020-06-20 18:52:04
+2020-06-28 16:42:21 [fb] INFO: Parsing post n = 399, post_date = 2020-06-20 18:19:13
+2020-06-28 16:42:21 [fb] INFO: Parsing post n = 400, post_date = 2020-06-20 18:01:18
+2020-06-28 16:42:21 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592647278%3A04611686018427387904%3A09223372036854775408%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592647278%3A04611686018427387904%3A09223372036854775408%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:42:50 [fb] INFO: Parsing post n = 401, post_date = 2020-06-20 17:30:44
+2020-06-28 16:42:50 [fb] INFO: Parsing post n = 402, post_date = 2020-06-20 17:01:26
+2020-06-28 16:42:50 [fb] INFO: Parsing post n = 403, post_date = 2020-06-20 16:41:07
+2020-06-28 16:42:50 [fb] INFO: Parsing post n = 404, post_date = 2020-06-20 16:20:33
+2020-06-28 16:42:50 [fb] INFO: Parsing post n = 405, post_date = 2020-06-20 16:01:05
+2020-06-28 16:42:50 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592640065%3A04611686018427387904%3A09223372036854775403%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592640065%3A04611686018427387904%3A09223372036854775403%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:42:56 [scrapy.extensions.logstats] INFO: Crawled 873 pages (at 16 pages/min), scraped 392 items (at 6 items/min)
+2020-06-28 16:43:27 [fb] INFO: Parsing post n = 406, post_date = 2020-06-20 15:36:21
+2020-06-28 16:43:27 [fb] INFO: Parsing post n = 407, post_date = 2020-06-20 15:12:08
+2020-06-28 16:43:27 [fb] INFO: Parsing post n = 408, post_date = 2020-06-20 15:05:19
+2020-06-28 16:43:27 [fb] INFO: Parsing post n = 409, post_date = 2020-06-20 14:46:07
+2020-06-28 16:43:27 [fb] INFO: Parsing post n = 410, post_date = 2020-06-20 14:15:27
+2020-06-28 16:43:27 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592633727%3A04611686018427387904%3A09223372036854775398%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592633727%3A04611686018427387904%3A09223372036854775398%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:43:56 [scrapy.extensions.logstats] INFO: Crawled 890 pages (at 17 pages/min), scraped 401 items (at 9 items/min)
+2020-06-28 16:44:03 [fb] INFO: Parsing post n = 411, post_date = 2020-06-20 13:55:44
+2020-06-28 16:44:03 [fb] INFO: Parsing post n = 412, post_date = 2020-06-20 13:36:02
+2020-06-28 16:44:03 [fb] INFO: Parsing post n = 413, post_date = 2020-06-20 13:10:18
+2020-06-28 16:44:03 [fb] INFO: Parsing post n = 414, post_date = 2020-06-20 12:51:00
+2020-06-28 16:44:03 [fb] INFO: Parsing post n = 415, post_date = 2020-06-20 12:34:32
+2020-06-28 16:44:03 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592627672%3A04611686018427387904%3A09223372036854775393%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592627672%3A04611686018427387904%3A09223372036854775393%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:44:56 [scrapy.extensions.logstats] INFO: Crawled 905 pages (at 15 pages/min), scraped 406 items (at 5 items/min)
+2020-06-28 16:45:00 [fb] INFO: Parsing post n = 416, post_date = 2020-06-20 12:16:03
+2020-06-28 16:45:00 [fb] INFO: Parsing post n = 417, post_date = 2020-06-20 11:51:35
+2020-06-28 16:45:00 [fb] INFO: Parsing post n = 418, post_date = 2020-06-20 11:06:29
+2020-06-28 16:45:00 [fb] INFO: Parsing post n = 419, post_date = 2020-06-20 10:36:01
+2020-06-28 16:45:00 [fb] INFO: Parsing post n = 420, post_date = 2020-06-20 10:15:24
+2020-06-28 16:45:00 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592619324%3A04611686018427387904%3A09223372036854775388%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592619324%3A04611686018427387904%3A09223372036854775388%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:45:47 [fb] INFO: Parsing post n = 421, post_date = 2020-06-20 10:00:02
+2020-06-28 16:45:47 [fb] INFO: Parsing post n = 422, post_date = 2020-06-20 09:40:19
+2020-06-28 16:45:47 [fb] INFO: Parsing post n = 423, post_date = 2020-06-20 08:58:20
+2020-06-28 16:45:47 [fb] INFO: Parsing post n = 424, post_date = 2020-06-20 08:32:27
+2020-06-28 16:45:47 [fb] INFO: Parsing post n = 425, post_date = 2020-06-20 08:12:50
+2020-06-28 16:45:47 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592611970%3A04611686018427387904%3A09223372036854775383%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592611970%3A04611686018427387904%3A09223372036854775383%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:45:56 [scrapy.extensions.logstats] INFO: Crawled 922 pages (at 17 pages/min), scraped 415 items (at 9 items/min)
+2020-06-28 16:46:12 [fb] INFO: Parsing post n = 426, post_date = 2020-06-20 07:52:08
+2020-06-28 16:46:12 [fb] INFO: Parsing post n = 427, post_date = 2020-06-20 07:31:00
+2020-06-28 16:46:12 [fb] INFO: Parsing post n = 428, post_date = 2020-06-20 00:32:10
+2020-06-28 16:46:12 [fb] INFO: Parsing post n = 429, post_date = 2020-06-19 23:37:39
+2020-06-28 16:46:12 [fb] INFO: Parsing post n = 430, post_date = 2020-06-19 23:26:28
+2020-06-28 16:46:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592580388%3A04611686018427387904%3A09223372036854775378%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592580388%3A04611686018427387904%3A09223372036854775378%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:46:42 [fb] INFO: Parsing post n = 431, post_date = 2020-06-19 23:13:10
+2020-06-28 16:46:42 [fb] INFO: Parsing post n = 432, post_date = 2020-06-19 22:56:13
+2020-06-28 16:46:42 [fb] INFO: Parsing post n = 433, post_date = 2020-06-19 22:38:18
+2020-06-28 16:46:42 [fb] INFO: Parsing post n = 434, post_date = 2020-06-19 22:21:00
+2020-06-28 16:46:42 [fb] INFO: Parsing post n = 435, post_date = 2020-06-19 22:03:10
+2020-06-28 16:46:42 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592575390%3A04611686018427387904%3A09223372036854775373%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592575390%3A04611686018427387904%3A09223372036854775373%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:46:56 [scrapy.extensions.logstats] INFO: Crawled 939 pages (at 17 pages/min), scraped 421 items (at 6 items/min)
+2020-06-28 16:47:30 [fb] INFO: Parsing post n = 436, post_date = 2020-06-19 22:03:10
+2020-06-28 16:47:30 [fb] INFO: Parsing post n = 437, post_date = 2020-06-19 21:35:09
+2020-06-28 16:47:30 [fb] INFO: Parsing post n = 438, post_date = 2020-06-19 21:20:27
+2020-06-28 16:47:30 [fb] INFO: Parsing post n = 439, post_date = 2020-06-19 20:05:32
+2020-06-28 16:47:30 [fb] INFO: Parsing post n = 440, post_date = 2020-06-19 19:53:39
+2020-06-28 16:47:30 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592567619%3A04611686018427387904%3A09223372036854775368%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592567619%3A04611686018427387904%3A09223372036854775368%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:47:56 [scrapy.extensions.logstats] INFO: Crawled 955 pages (at 16 pages/min), scraped 430 items (at 9 items/min)
+2020-06-28 16:48:25 [fb] INFO: Parsing post n = 441, post_date = 2020-06-19 19:36:32
+2020-06-28 16:48:25 [fb] INFO: Parsing post n = 442, post_date = 2020-06-19 19:19:37
+2020-06-28 16:48:25 [fb] INFO: Parsing post n = 443, post_date = 2020-06-19 19:07:28
+2020-06-28 16:48:25 [fb] INFO: Parsing post n = 444, post_date = 2020-06-19 18:49:15
+2020-06-28 16:48:25 [fb] INFO: Parsing post n = 445, post_date = 2020-06-19 18:32:35
+2020-06-28 16:48:25 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592562755%3A04611686018427387904%3A09223372036854775363%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592562755%3A04611686018427387904%3A09223372036854775363%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:48:56 [scrapy.extensions.logstats] INFO: Crawled 971 pages (at 16 pages/min), scraped 440 items (at 10 items/min)
+2020-06-28 16:49:16 [fb] INFO: Parsing post n = 446, post_date = 2020-06-19 18:20:40
+2020-06-28 16:49:16 [fb] INFO: Parsing post n = 447, post_date = 2020-06-19 18:14:41
+2020-06-28 16:49:16 [fb] INFO: Parsing post n = 448, post_date = 2020-06-19 17:57:58
+2020-06-28 16:49:16 [fb] INFO: Parsing post n = 449, post_date = 2020-06-19 17:40:40
+2020-06-28 16:49:16 [fb] INFO: Parsing post n = 450, post_date = 2020-06-19 17:24:31
+2020-06-28 16:49:16 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592558671%3A04611686018427387904%3A09223372036854775358%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592558671%3A04611686018427387904%3A09223372036854775358%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:49:55 [fb] INFO: Parsing post n = 451, post_date = 2020-06-19 17:07:30
+2020-06-28 16:49:55 [fb] INFO: Parsing post n = 452, post_date = 2020-06-19 17:06:21
+2020-06-28 16:49:55 [fb] INFO: Parsing post n = 453, post_date = 2020-06-19 16:50:23
+2020-06-28 16:49:55 [fb] INFO: Parsing post n = 454, post_date = 2020-06-19 16:45:00
+2020-06-28 16:49:55 [fb] INFO: Parsing post n = 455, post_date = 2020-06-19 16:30:45
+2020-06-28 16:49:55 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592555445%3A04611686018427387904%3A09223372036854775353%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592555445%3A04611686018427387904%3A09223372036854775353%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:49:56 [scrapy.extensions.logstats] INFO: Crawled 988 pages (at 17 pages/min), scraped 445 items (at 5 items/min)
+2020-06-28 16:50:32 [fb] INFO: Parsing post n = 456, post_date = 2020-06-19 16:25:45
+2020-06-28 16:50:32 [fb] INFO: Parsing post n = 457, post_date = 2020-06-19 16:08:36
+2020-06-28 16:50:32 [fb] INFO: Parsing post n = 458, post_date = 2020-06-19 16:00:50
+2020-06-28 16:50:32 [fb] INFO: Parsing post n = 459, post_date = 2020-06-19 15:23:27
+2020-06-28 16:50:32 [fb] INFO: Parsing post n = 460, post_date = 2020-06-19 15:16:03
+2020-06-28 16:50:32 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592550963%3A04611686018427387904%3A09223372036854775348%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592550963%3A04611686018427387904%3A09223372036854775348%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:50:56 [scrapy.extensions.logstats] INFO: Crawled 1005 pages (at 17 pages/min), scraped 454 items (at 9 items/min)
+2020-06-28 16:51:00 [fb] INFO: Parsing post n = 461, post_date = 2020-06-19 15:01:16
+2020-06-28 16:51:00 [fb] INFO: Parsing post n = 462, post_date = 2020-06-19 14:46:13
+2020-06-28 16:51:00 [fb] INFO: Parsing post n = 463, post_date = 2020-06-19 14:30:39
+2020-06-28 16:51:00 [fb] INFO: Parsing post n = 464, post_date = 2020-06-19 14:15:26
+2020-06-28 16:51:00 [fb] INFO: Parsing post n = 465, post_date = 2020-06-19 14:00:32
+2020-06-28 16:51:00 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592546432%3A04611686018427387904%3A09223372036854775343%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592546432%3A04611686018427387904%3A09223372036854775343%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:51:24 [fb] INFO: Parsing post n = 466, post_date = 2020-06-19 13:45:31
+2020-06-28 16:51:24 [fb] INFO: Parsing post n = 467, post_date = 2020-06-19 13:30:41
+2020-06-28 16:51:24 [fb] INFO: Parsing post n = 468, post_date = 2020-06-19 13:15:51
+2020-06-28 16:51:24 [fb] INFO: Parsing post n = 469, post_date = 2020-06-19 13:00:57
+2020-06-28 16:51:24 [fb] INFO: Parsing post n = 470, post_date = 2020-06-19 12:46:05
+2020-06-28 16:51:24 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592541965%3A04611686018427387904%3A09223372036854775338%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592541965%3A04611686018427387904%3A09223372036854775338%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:51:56 [scrapy.extensions.logstats] INFO: Crawled 1022 pages (at 17 pages/min), scraped 461 items (at 7 items/min)
+2020-06-28 16:52:05 [fb] INFO: Parsing post n = 471, post_date = 2020-06-19 12:31:11
+2020-06-28 16:52:05 [fb] INFO: Parsing post n = 472, post_date = 2020-06-19 12:15:30
+2020-06-28 16:52:05 [fb] INFO: Parsing post n = 473, post_date = 2020-06-19 12:00:52
+2020-06-28 16:52:05 [fb] INFO: Parsing post n = 474, post_date = 2020-06-19 11:43:56
+2020-06-28 16:52:05 [fb] INFO: Parsing post n = 475, post_date = 2020-06-19 11:15:01
+2020-06-28 16:52:05 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592536501%3A04611686018427387904%3A09223372036854775333%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592536501%3A04611686018427387904%3A09223372036854775333%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:52:56 [scrapy.extensions.logstats] INFO: Crawled 1038 pages (at 16 pages/min), scraped 467 items (at 6 items/min)
+2020-06-28 16:52:58 [fb] INFO: Parsing post n = 476, post_date = 2020-06-19 11:00:35
+2020-06-28 16:52:58 [fb] INFO: Parsing post n = 477, post_date = 2020-06-19 10:45:27
+2020-06-28 16:52:58 [fb] INFO: Parsing post n = 478, post_date = 2020-06-19 10:30:41
+2020-06-28 16:52:58 [fb] INFO: Parsing post n = 479, post_date = 2020-06-19 10:15:42
+2020-06-28 16:52:58 [fb] INFO: Parsing post n = 480, post_date = 2020-06-19 10:01:09
+2020-06-28 16:52:58 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592532069%3A04611686018427387904%3A09223372036854775328%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592532069%3A04611686018427387904%3A09223372036854775328%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:53:37 [fb] INFO: Parsing post n = 481, post_date = 2020-06-19 09:41:23
+2020-06-28 16:53:37 [fb] INFO: Parsing post n = 482, post_date = 2020-06-19 09:37:09
+2020-06-28 16:53:37 [fb] INFO: Parsing post n = 483, post_date = 2020-06-19 09:16:14
+2020-06-28 16:53:37 [fb] INFO: Parsing post n = 484, post_date = 2020-06-19 08:59:00
+2020-06-28 16:53:37 [fb] INFO: Parsing post n = 485, post_date = 2020-06-19 08:41:07
+2020-06-28 16:53:37 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592527267%3A04611686018427387904%3A09223372036854775323%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592527267%3A04611686018427387904%3A09223372036854775323%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:53:56 [scrapy.extensions.logstats] INFO: Crawled 1054 pages (at 16 pages/min), scraped 475 items (at 8 items/min)
+2020-06-28 16:54:15 [fb] INFO: Parsing post n = 486, post_date = 2020-06-19 08:15:45
+2020-06-28 16:54:15 [fb] INFO: Parsing post n = 487, post_date = 2020-06-19 07:59:34
+2020-06-28 16:54:15 [fb] INFO: Parsing post n = 488, post_date = 2020-06-19 07:45:40
+2020-06-28 16:54:15 [fb] INFO: Parsing post n = 489, post_date = 2020-06-19 07:27:48
+2020-06-28 16:54:15 [fb] INFO: Parsing post n = 490, post_date = 2020-06-19 00:05:24
+2020-06-28 16:54:15 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1593586799_0_36_timeline_unit%3A1%3A00000000001592496324%3A04611686018427387904%3A09223372036854775317%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592496324%3A04611686018427387904%3A09223372036854775317%3A04611686018427387904&timeend=1593586799&timestart=0&tm=AQD2xBiyEsJbu7JN&refid=17
+2020-06-28 16:54:56 [scrapy.extensions.logstats] INFO: Crawled 1069 pages (at 15 pages/min), scraped 485 items (at 10 items/min)
+2020-06-28 16:55:04 [fb] INFO: Parsing post n = 491, post_date = 2020-06-18 23:25:08
+2020-06-28 16:55:04 [fb] INFO: Parsing post n = 492, post_date = 2020-06-18 23:06:10
+2020-06-28 16:55:04 [fb] INFO: Parsing post n = 493, post_date = 2020-06-18 22:45:40
+2020-06-28 16:55:04 [fb] INFO: Parsing post n = 494, post_date = 2020-06-18 22:20:32
+2020-06-28 16:55:04 [fb] INFO: Parsing post n = 495, post_date = 2020-06-18 21:56:07
+2020-06-28 16:55:04 [fb] INFO: [!] "more" link not found, will look for a "year" link
+2020-06-28 16:55:04 [fb] INFO: Found a link for year "2019", new_page = https://mbasic.facebook.com/TheStraitsTimes?v=timeline&timecutoff=1592488567&sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:55:43 [fb] INFO: Parsing post n = 496, post_date = 2020-06-26 17:04:06
+2020-06-28 16:55:43 [fb] INFO: Parsing post n = 497, post_date = 2020-06-25 18:57:12
+2020-06-28 16:55:43 [fb] INFO: Parsing post n = 498, post_date = 2020-06-25 17:07:58
+2020-06-28 16:55:43 [fb] INFO: Parsing post n = 499, post_date = 2020-06-24 17:06:31
+2020-06-28 16:55:43 [fb] INFO: Parsing post n = 500, post_date = 2020-06-23 17:12:22
+2020-06-28 16:55:43 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001592903542%3A04611686018427387904%3A09223372036854775803%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592903542%3A04611686018427387904%3A09223372036854775803%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:55:56 [scrapy.extensions.logstats] INFO: Crawled 1086 pages (at 17 pages/min), scraped 491 items (at 6 items/min)
+2020-06-28 16:56:24 [fb] INFO: Parsing post n = 501, post_date = 2020-06-23 16:22:35
+2020-06-28 16:56:24 [fb] INFO: Parsing post n = 502, post_date = 2020-06-23 14:36:39
+2020-06-28 16:56:24 [fb] INFO: Parsing post n = 503, post_date = 2020-06-22 16:59:15
+2020-06-28 16:56:24 [fb] INFO: Parsing post n = 504, post_date = 2020-06-22 09:34:09
+2020-06-28 16:56:24 [fb] INFO: Parsing post n = 505, post_date = 2020-06-20 19:17:32
+2020-06-28 16:56:24 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001592651852%3A04611686018427387904%3A09223372036854775798%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592651852%3A04611686018427387904%3A09223372036854775798%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:56:47 [fb] INFO: Parsing post n = 506, post_date = 2020-06-19 17:06:21
+2020-06-28 16:56:47 [fb] INFO: Parsing post n = 507, post_date = 2020-06-19 11:43:56
+2020-06-28 16:56:47 [fb] INFO: Parsing post n = 508, post_date = 2020-06-19 08:41:07
+2020-06-28 16:56:47 [fb] INFO: Parsing post n = 509, post_date = 2020-06-18 17:02:44
+2020-06-28 16:56:47 [fb] INFO: Parsing post n = 510, post_date = 2020-06-17 19:08:51
+2020-06-28 16:56:47 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001592392131%3A04611686018427387904%3A09223372036854775792%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592392131%3A04611686018427387904%3A09223372036854775792%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:56:56 [scrapy.extensions.logstats] INFO: Crawled 1104 pages (at 18 pages/min), scraped 499 items (at 8 items/min)
+2020-06-28 16:57:35 [fb] INFO: Parsing post n = 511, post_date = 2020-06-17 16:57:18
+2020-06-28 16:57:35 [fb] INFO: Parsing post n = 512, post_date = 2020-06-16 17:06:13
+2020-06-28 16:57:35 [fb] INFO: Parsing post n = 513, post_date = 2020-06-15 19:49:19
+2020-06-28 16:57:35 [fb] INFO: Parsing post n = 514, post_date = 2020-06-15 17:12:34
+2020-06-28 16:57:35 [fb] INFO: Parsing post n = 515, post_date = 2020-06-14 18:58:26
+2020-06-28 16:57:35 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001592132306%3A04611686018427387904%3A09223372036854775787%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001592132306%3A04611686018427387904%3A09223372036854775787%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:57:56 [scrapy.extensions.logstats] INFO: Crawled 1120 pages (at 16 pages/min), scraped 510 items (at 11 items/min)
+2020-06-28 16:58:03 [fb] INFO: Parsing post n = 516, post_date = 2020-06-12 16:50:41
+2020-06-28 16:58:03 [fb] INFO: Parsing post n = 517, post_date = 2020-06-11 19:06:05
+2020-06-28 16:58:03 [fb] INFO: Parsing post n = 518, post_date = 2020-06-10 17:08:55
+2020-06-28 16:58:03 [fb] INFO: Parsing post n = 519, post_date = 2020-06-09 19:04:31
+2020-06-28 16:58:03 [fb] INFO: Parsing post n = 520, post_date = 2020-06-09 17:01:56
+2020-06-28 16:58:03 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001591693316%3A04611686018427387904%3A09223372036854775782%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001591693316%3A04611686018427387904%3A09223372036854775782%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:58:33 [fb] INFO: Parsing post n = 521, post_date = 2020-06-08 17:09:37
+2020-06-28 16:58:33 [fb] INFO: Parsing post n = 522, post_date = 2020-06-07 19:18:47
+2020-06-28 16:58:33 [fb] INFO: Parsing post n = 523, post_date = 2020-06-04 16:54:25
+2020-06-28 16:58:33 [fb] INFO: Parsing post n = 524, post_date = 2020-06-03 17:29:57
+2020-06-28 16:58:33 [fb] INFO: Parsing post n = 525, post_date = 2020-06-02 17:09:29
+2020-06-28 16:58:33 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001591088969%3A04611686018427387904%3A09223372036854775777%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001591088969%3A04611686018427387904%3A09223372036854775777%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:58:56 [scrapy.extensions.logstats] INFO: Crawled 1137 pages (at 17 pages/min), scraped 515 items (at 5 items/min)
+2020-06-28 16:59:12 [fb] INFO: Parsing post n = 526, post_date = 2020-06-02 12:43:20
+2020-06-28 16:59:12 [fb] INFO: Parsing post n = 527, post_date = 2020-06-01 19:08:14
+2020-06-28 16:59:12 [fb] INFO: Parsing post n = 528, post_date = 2020-06-01 16:59:15
+2020-06-28 16:59:12 [fb] INFO: Parsing post n = 529, post_date = 2020-05-29 17:01:04
+2020-06-28 16:59:12 [fb] INFO: Parsing post n = 530, post_date = 2020-05-29 11:09:35
+2020-06-28 16:59:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001590721775%3A04611686018427387904%3A09223372036854775772%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001590721775%3A04611686018427387904%3A09223372036854775772%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 16:59:56 [scrapy.extensions.logstats] INFO: Crawled 1154 pages (at 17 pages/min), scraped 522 items (at 7 items/min)
+2020-06-28 17:00:00 [fb] INFO: Parsing post n = 531, post_date = 2020-05-28 16:58:03
+2020-06-28 17:00:00 [fb] INFO: Parsing post n = 532, post_date = 2020-05-27 17:04:07
+2020-06-28 17:00:00 [fb] INFO: Parsing post n = 533, post_date = 2020-05-22 18:04:45
+2020-06-28 17:00:00 [fb] INFO: Parsing post n = 534, post_date = 2020-05-22 17:07:12
+2020-06-28 17:00:00 [fb] INFO: Parsing post n = 535, post_date = 2020-05-20 18:06:26
+2020-06-28 17:00:00 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001589969186%3A04611686018427387904%3A09223372036854775767%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001589969186%3A04611686018427387904%3A09223372036854775767%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:00:37 [fb] INFO: Parsing post n = 536, post_date = 2020-05-20 17:16:12
+2020-06-28 17:00:37 [fb] INFO: Parsing post n = 537, post_date = 2020-05-19 20:07:59
+2020-06-28 17:00:37 [fb] INFO: Parsing post n = 538, post_date = 2020-03-27 01:01:09
+2020-06-28 17:00:37 [fb] INFO: Parsing post n = 539, post_date = 2020-03-26 17:29:46
+2020-06-28 17:00:37 [fb] INFO: Parsing post n = 540, post_date = 2020-03-25 17:29:45
+2020-06-28 17:00:37 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001585128585%3A04611686018427387904%3A09223372036854775762%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001585128585%3A04611686018427387904%3A09223372036854775762%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:00:56 [scrapy.extensions.logstats] INFO: Crawled 1169 pages (at 15 pages/min), scraped 531 items (at 9 items/min)
+2020-06-28 17:01:13 [fb] INFO: Parsing post n = 541, post_date = 2020-03-24 17:30:03
+2020-06-28 17:01:13 [fb] INFO: Parsing post n = 542, post_date = 2020-03-23 18:35:36
+2020-06-28 17:01:13 [fb] INFO: Parsing post n = 543, post_date = 2020-03-20 19:13:46
+2020-06-28 17:01:13 [fb] INFO: Parsing post n = 544, post_date = 2020-03-20 17:29:43
+2020-06-28 17:01:13 [fb] INFO: Parsing post n = 545, post_date = 2020-03-19 17:29:43
+2020-06-28 17:01:13 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001584610183%3A04611686018427387904%3A09223372036854775757%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001584610183%3A04611686018427387904%3A09223372036854775757%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:01:56 [scrapy.extensions.logstats] INFO: Crawled 1184 pages (at 15 pages/min), scraped 538 items (at 7 items/min)
+2020-06-28 17:02:00 [fb] INFO: Parsing post n = 546, post_date = 2020-03-18 21:40:01
+2020-06-28 17:02:00 [fb] INFO: Parsing post n = 547, post_date = 2020-03-18 17:29:43
+2020-06-28 17:02:00 [fb] INFO: Parsing post n = 548, post_date = 2020-03-18 07:38:58
+2020-06-28 17:02:00 [fb] INFO: Parsing post n = 549, post_date = 2020-03-17 19:26:42
+2020-06-28 17:02:00 [fb] INFO: Parsing post n = 550, post_date = 2020-03-17 17:29:43
+2020-06-28 17:02:00 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001584437383%3A04611686018427387904%3A09223372036854775752%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001584437383%3A04611686018427387904%3A09223372036854775752%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:02:47 [fb] INFO: Parsing post n = 551, post_date = 2020-03-17 16:15:43
+2020-06-28 17:02:47 [fb] INFO: Parsing post n = 552, post_date = 2020-03-16 20:21:32
+2020-06-28 17:02:47 [fb] INFO: Parsing post n = 553, post_date = 2020-03-13 17:29:45
+2020-06-28 17:02:47 [fb] INFO: Parsing post n = 554, post_date = 2020-03-11 20:29:46
+2020-06-28 17:02:47 [fb] INFO: Parsing post n = 555, post_date = 2020-03-11 17:31:02
+2020-06-28 17:02:47 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001583919062%3A04611686018427387904%3A09223372036854775747%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001583919062%3A04611686018427387904%3A09223372036854775747%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:02:56 [scrapy.extensions.logstats] INFO: Crawled 1199 pages (at 15 pages/min), scraped 545 items (at 7 items/min)
+2020-06-28 17:03:26 [fb] INFO: Parsing post n = 556, post_date = 2020-03-10 19:17:47
+2020-06-28 17:03:26 [fb] INFO: Parsing post n = 557, post_date = 2020-03-09 20:23:49
+2020-06-28 17:03:26 [fb] INFO: Parsing post n = 558, post_date = 2020-03-09 17:29:30
+2020-06-28 17:03:26 [fb] INFO: Parsing post n = 559, post_date = 2020-03-06 20:53:09
+2020-06-28 17:03:26 [fb] INFO: Parsing post n = 560, post_date = 2020-03-05 18:52:08
+2020-06-28 17:03:26 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001583405528%3A04611686018427387904%3A09223372036854775742%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001583405528%3A04611686018427387904%3A09223372036854775742%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:03:56 [scrapy.extensions.logstats] INFO: Crawled 1213 pages (at 14 pages/min), scraped 552 items (at 7 items/min)
+2020-06-28 17:04:12 [fb] INFO: Parsing post n = 561, post_date = 2020-03-04 17:29:47
+2020-06-28 17:04:12 [fb] INFO: Parsing post n = 562, post_date = 2020-03-03 20:26:00
+2020-06-28 17:04:12 [fb] INFO: Parsing post n = 563, post_date = 2020-03-02 17:31:47
+2020-06-28 17:04:12 [fb] INFO: Parsing post n = 564, post_date = 2020-02-28 20:33:47
+2020-06-28 17:04:12 [fb] INFO: Parsing post n = 565, post_date = 2020-02-28 17:29:46
+2020-06-28 17:04:12 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001582882186%3A04611686018427387904%3A09223372036854775737%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001582882186%3A04611686018427387904%3A09223372036854775737%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:04:53 [fb] INFO: Parsing post n = 566, post_date = 2020-02-27 17:31:48
+2020-06-28 17:04:53 [fb] INFO: Parsing post n = 567, post_date = 2020-02-26 17:31:48
+2020-06-28 17:04:53 [fb] INFO: Parsing post n = 568, post_date = 2020-02-25 19:21:45
+2020-06-28 17:04:53 [fb] INFO: Parsing post n = 569, post_date = 2020-02-25 17:29:53
+2020-06-28 17:04:53 [fb] INFO: Parsing post n = 570, post_date = 2020-02-24 20:29:53
+2020-06-28 17:04:53 [fb] INFO: Page scraped, clicking on "more"! new_page = https://mbasic.facebook.com/TheStraitsTimes?sectionLoadingID=m_timeline_loading_div_1609487999_1577865600_8_timeline_unit%3A1%3A00000000001582547393%3A04611686018427387904%3A09223372036854775732%3A04611686018427387904&unit_cursor=timeline_unit%3A1%3A00000000001582547393%3A04611686018427387904%3A09223372036854775732%3A04611686018427387904&timeend=1609487999&timestart=1577865600&tm=AQAiZV97SJozgOhE&refid=17
+2020-06-28 17:04:56 [scrapy.extensions.logstats] INFO: Crawled 1229 pages (at 16 pages/min), scraped 559 items (at 7 items/min)
+2020-06-28 17:05:30 [fb] INFO: Parsing post n = 571, post_date = 2020-02-24 20:05:00
+2020-06-28 17:05:30 [fb] INFO: Parsing post n = 572, post_date = 2020-02-24 17:30:41
+2020-06-28 17:05:30 [fb] INFO: Parsing post n = 573, post_date = 2020-02-24 14:50:04
+2020-06-28 17:05:30 [fb] INFO: Parsing post n = 574, post_date = 2020-02-21 20:02:51
+2020-06-28 17:05:30 [fb] INFO: [!] "more" link not found, will look for a "year" link
+2020-06-28 17:05:30 [fb] INFO: Crawling has finished with no errors!
+2020-06-28 17:05:56 [scrapy.extensions.logstats] INFO: Crawled 1242 pages (at 13 pages/min), scraped 564 items (at 5 items/min)
+2020-06-28 17:06:56 [scrapy.extensions.logstats] INFO: Crawled 1255 pages (at 13 pages/min), scraped 573 items (at 9 items/min)
+2020-06-28 17:07:25 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-06-28 17:07:25 [scrapy.extensions.feedexport] INFO: Stored csv feed (573 items) in: TheStraitsTimes.csv
+2020-06-28 17:07:25 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2837536,
+ 'downloader/request_count': 1278,
+ 'downloader/request_method_count/GET': 1276,
+ 'downloader/request_method_count/POST': 2,
+ 'downloader/response_bytes': 15658000,
+ 'downloader/response_count': 1278,
+ 'downloader/response_status_count/200': 1255,
+ 'downloader/response_status_count/302': 23,
+ 'elapsed_time_seconds': 4708.936064,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 6, 28, 9, 7, 25, 237948),
+ 'item_scraped_count': 573,
+ 'log_count/INFO': 782,
+ 'memusage/max': 146870272,
+ 'memusage/startup': 56197120,
+ 'request_depth_max': 119,
+ 'response_received_count': 1255,
+ 'scheduler/dequeued': 1278,
+ 'scheduler/dequeued/memory': 1278,
+ 'scheduler/enqueued': 1278,
+ 'scheduler/enqueued/memory': 1278,
+ 'start_time': datetime.datetime(2020, 6, 28, 7, 48, 56, 301884)}
+2020-06-28 17:07:25 [scrapy.core.engine] INFO: Spider closed (finished)
+56.08user 1.63system 1:18:30elapsed 1%CPU (0avgtext+0avgdata 143660maxresident)k
+0inputs+1752outputs (0major+757763minor)pagefaults 0swaps
